@@ -37,7 +37,7 @@ body {
   color: #1e2939;
   font-size: 16px;
   font-weight: 700;
-  padding: 0px 6px;
+  padding: 0 6px;
   appearance: none;
   cursor: pointer;
   outline-style: none;
@@ -53,29 +53,11 @@ body {
 .side-bar {
   background-color: #1e2939;
   width: 370px;
-  padding: 40px 0;
-}
-
-.picture {
-  overflow: hidden;
-  width: 370px;
-  height: 370px;
+  padding: 60px 0;
 }
 
 .about-me-container {
-  padding: 110px 90px;
-}
-
-.contacts-container {
-  margin: 60px 40px 0;
-}
-
-.contacts-title {
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 24px;
-  color: #fff;
-  margin-bottom: 20px;
+  padding: 60px 90px;
 }
 
 .contacts-list {
@@ -105,17 +87,11 @@ body {
   display: inline-block;
 }
 
-.tech-skills-container,
-.soft-skills-container,
-.language-container,
-.training-container {
-  margin: 55px 40px 0;
+.aside-container {
+  margin: 60px 40px 0;
 }
 
-.tech-skills-title,
-.language-title,
-.soft-skills-title,
-.training-title {
+.aside-title {
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
@@ -123,10 +99,7 @@ body {
   color: #fff;
 }
 
-.soft-skills-item,
-.training-item,
-.language-item,
-.tech-skills-item {
+.aside-item {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -134,10 +107,7 @@ body {
   margin-left: 15px;
 }
 
-.soft-skills-text,
-.training-text,
-.tech-skills-text,
-.language-text {
+.aside-text {
   color: #acb1b6;
   transition: color 0.3s ease;
 }
@@ -232,7 +202,8 @@ body {
   color: #1e2939;
 }
 
-.company-name {
+.company-name,
+.accent-line {
   color: #ff6b08;
   position: relative;
 }
@@ -241,10 +212,6 @@ body {
   font-size: 12px;
   line-height: 24px;
   color: #8f8f8f;
-}
-
-.accent-line {
-  color: #ff6b08;
 }
 
 .profession-duties {
@@ -270,7 +237,6 @@ body {
 .university {
   color: #ff6b08;
   position: relative;
-  font-family: Montserrat, sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 24px;
